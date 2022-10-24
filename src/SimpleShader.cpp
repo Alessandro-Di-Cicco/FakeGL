@@ -4,7 +4,6 @@
 #include <glm/ext/matrix_transform.hpp>
 
 #include "ofColor.h"
-#include "ofMath.h"
 #include "ofUtils.h"
 
 SimpleShader::SimpleShader(glm::mat4 persp, bool lit)
