@@ -2,7 +2,7 @@
 <p align="center">
   <img src="media/screenshot1.png" alt="screenshot" width="1000"/>
 </p>
-<i><p align="center">An example using colored lights, advanced fragment shaders, and different meshes</p></i>
+<i><p align="center">An example of a some of the rendering features</p></i>
 
 <hr>
 <p align="center">
@@ -15,7 +15,7 @@
 <p align="center">
   <img src="media/thirdGif.gif" alt="animated" width="1000"/>
 </p>
-<i><p align="center">A more complex scene, rendered in real time</p></i>
+<i><p align="center">A more complex scene, using colored lights, advanced fragment shaders, and different meshes, rendered in real time</p></i>
 
 # Introduction
 This is a proof-of-concept project, born to explore the problems of graphics rendering, while trying to emulate a simplified version of the OpenGL API.
