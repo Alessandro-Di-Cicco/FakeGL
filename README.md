@@ -58,8 +58,6 @@ Once each vertex's coordinates have been converted to view space coordinates (i.
 For each triangle, finds the on-screen pixels that represent it (read later sections on how that is accomplished), and for each of those pixels it runs a fragment shader. The fragment shader receives the coordinates of the three vertices describing the triangle to which the pixel belongs, and also receives the pixel's barycentric coordinates relative to said triangle.
 Fragment shaders are responsible for computing the color of the pixel, which is done by also simulating lighting, using a simplified version of the Phong light model, which doesn't compute specular lighting (note: the calculations required to compute specular lighting are not too different from the ones used to compute diffuse light, but they've been omitted for performance reasons, in order to mantain the software somewhat usable!)
 
-![lighting](media/lighting.png)
-
 ## Renderer
 The `Renderer` acts as a coordinator of the rendering activities.
 When the `render(Renderer& r)` method of a `Mesh` object is called, the mesh calls `Renderer::drawTriangle(...)` for each of its triangles, passing the vertex coordinates and the `VertexData` objects.
@@ -75,6 +73,8 @@ Then, the renderer performs the following steps:
 </p>
 
 # Lighting
+![lighting](media/lighting.png)
+
 Lights are supported by the `SimpleShader` type. Lights can be added or removed from computation using the `addLight()` and `removeLight()` methods on a `SimpleShader` (or derived) object.
 
 ## Ambient light
