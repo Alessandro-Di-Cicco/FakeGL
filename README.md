@@ -6,10 +6,10 @@
 
 <hr>
 <p align="center">
-    <img src="media/firstGif.gif" alt="animated" height="375"/>
-  <img src="media/secondgif.gif" alt="animated" height="375"/>
+    <img src="media/firstGif.gif" alt="animated" height="250"/>
+  <img src="media/secondgif.gif" alt="animated" height="250"/>
 </p>
-<i><p align="center">Real time rendering examples, the one to the right is a good example of light blending!</p></i>
+<i><p align="center">Real time rendering examples, the second is a good example of light blending!</p></i>
 <hr>
 
 <p align="center">
