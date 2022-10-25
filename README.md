@@ -69,7 +69,7 @@ Then, the renderer performs the following steps:
 3. Once the fragment shader returns the pixel color, compare the fragment's depth with the value located at the same position within the depth buffer (which is basically a texture with the same size as the window, so that every pixel corresponds to a pixel on the screen), if the new fragment's depth is lower than the currently stored value, draw the fragment on screen and update the corresponding depth buffer value, otherwise skip the fragment.
 
 <p align="center">
-  <img src="media/renderer.png" alt="renderer image" height="350"/>
+  <img src="media/renderer.png" alt="renderer image" max-height="350"/>
 </p>
 
 # Lighting
